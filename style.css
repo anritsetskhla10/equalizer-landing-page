@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400;500;700&family=Outfit:wght@400;700&display=swap');
+
+
+body{
+min-width: 375px;
+height: 100%;
+background: #FCFAF9;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.equalizer{
+background: url(./images/bg-main-mobile.png) 159px -104px / 281px 480px;
+background-repeat: no-repeat;
+height: 520px;
+}
+.equalizer .equalizer-icon{
+    margin: 40px 0 64px 24px;
+}
+.equalizer-icon{
+    width: 146.093px;
+    height: 32px;
+}
+
+.title{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 327px;
+margin: 0 24px ;
+}
+
+.title h1{
+width: 327px;
+color: #191826;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; 
+letter-spacing: -0.455px;
+}
+
+.title p{
+width: 327px;
+height: 156px;
+color: #191826;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+main{
+height: 926px;
+margin-top: 98px;
+}
+
+.illustration{
+height: 600px;
+border-radius: 12px;
+background: url(./images/bg-pattern-2.svg) ;
+background-color: #191826;
+background-size: 280px 420px;
+background-position: center top;
+background-repeat: no-repeat;
+}
+
+.illustration-app{
+width: 209px;
+height: 430px;
+margin: -98px 85px 48px 80px;
+}
+
+
+.card{
+border-radius: 12px;
+background-color: #FA7453;
+width: 375px;
+height: 546px;
+}
+
+.wrapper {
+display: flex;
+flex-direction: column;
+gap: 12px;
+width: 302px;
+color: #FCFAF9;
+font-family: IBM Plex Sans;
+font-style: normal;
+padding: 48px 37px 0 36px;
+}
+.wrapper h1{
+font-size: 32px;
+font-weight: 700;
+line-height: 40px; 
+}
+
+.wrapper p{
+width: 302px;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.price{
+width: 165px;
+height: 52px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 16px;
+color: #FCFAF9;
+font-family: IBM Plex Sans;
+font-style: normal;
+margin: 36px 168px 0 42px;
+}
+
+.price h2{
+font-size: 65px;
+font-weight: 700;
+line-height: 52px;
+}
+
+.price h3{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.2px;
+}
+
+.card button p{
+text-align: center;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+letter-spacing: -0.18px;
+}
+
+.ios-button{
+width: 296px;
+height: 61px;
+border-radius: 12px;
+border: none;
+background: #191826;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 7.917px;
+margin: 32px 37px 0 42px;
+}
+
+.ios-button img{
+width: 17.083px;
+height: 20px;
+fill: #FCFAF9;
+}
+
+.ios-button p{
+color: #FCFAF9;
+}
+
+.android-button{
+width: 296px;
+height: 61px;
+border-radius: 12px;
+border: none;
+background: #FCFAF9;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 7.917px;
+margin: 16px 37px 0 42px;
+}
+
+.android-button img{
+width: 16.702px;
+height: 20px;
+fill: #191826;
+
+}
+
+.android-button p{
+color: #191826;
+}
+
+.contact{
+height: 397px;
+
+}
+
+.description{
+display: flex;
+flex-direction: column;
+gap: 32.008px;
+margin: 64px 24px 0 ;
+}
+
+.description p{
+width: 327px;
+color: #191826;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.mail{
+width: 327px;
+font-weight: 700;
+}
+
+.social-media{
+width: 100px;
+height: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 64px 251px 80px 24px;
+}
+
+
+@media (min-width:768px){
+    
+
+.equalizer{
+background: 
+url(./images/bg-main-tablet.png) -254px -112px / 983px 808px,  
+url(./images/bg-pattern-1.svg) 537px -32px / 267px 400px,  
+#FCFAF9 ;
+background-repeat: no-repeat;
+height: 632px;
+margin: 0;
+}
+.equalizer .equalizer-icon{
+    margin: 62px 0 95px 39px;
+}
+
+
+.title{
+width: 520px;
+height: 332px;
+display: flex;
+flex-direction: column;
+gap: 28px;
+margin: 0 209px 111px 39px;
+}
+    
+.title h1{
+width: 520px;
+font-size: 64px;
+line-height: 64px; 
+letter-spacing: -0.727px;
+}
+    
+.title p{
+width: 514px;
+font-size: 18px;
+line-height: 28px;
+}
+
+main{
+width: 696px;
+height: 696px;
+margin: 138px 39px 0 33px;
+}
+
+.illustration{
+width: 696px;
+height: 600px;
+border-radius: 12px;
+background: url(./images/bg-pattern-2.svg) 229px -31px / 280px 420px , #191826 ;
+background-repeat: no-repeat;
+}
+    
+.illustration-app{
+width: 270px;
+height: 556px;
+margin: -138px 362px 0 64px;
+}
+    
+    
+.card{
+width: 399px;
+height: 546px;
+margin: -268px 58px 0 239px;
+position: absolute;
+}
+    
+.wrapper {
+padding: 48px 49px 0 48px;
+}
+
+.price{
+margin: 36px 180px 0 54px;
+}
+    
+.ios-button{
+margin: 32px 49px 0 54px;
+}
+
+.android-button{
+ margin: 16px 49px 48px 54px;
+}
+
+.contact{
+width: 696px;
+height: 143px;
+display: flex;
+flex-direction: row;
+margin: 87px 39px 85px 33px;
+}
+.description{
+margin: 0;
+}   
+.description p{
+width: 366px;
+}
+br{
+    display: none;
+    }
+.social-media{
+margin: 94px 0 29px 230px;
+}
+    
+}
+
+
+@media (min-width:1440px){
+    
+
+.equalizer{
+background:
+url(./images/bg-main-desktop.png) -146px -112px / 1613px 1758px, 
+url(./images/bg-pattern-1.svg) 1128px -40px / 312px 468px,
+#FCFAF9 ;
+background-repeat: no-repeat;
+height: 765px;
+} 
+.equalizer .equalizer-icon{
+    margin: 62px 0 127px 166px;
+}
+    
+.title{
+width: 1015px;
+gap: 40px;
+margin: 0 260px 108px 165px;
+}
+        
+.title h1{
+width: 1015px;
+font-size: 88px;
+line-height: 88px;
+letter-spacing: -1px;
+}
+        
+.title p{
+width: 825px;
+font-size: 20px;
+line-height: 34px;
+}
+
+main{
+width: 1110px;
+height: 712px;
+margin: 108px 165px 0 ;
+}   
+.illustration{
+width: 1110px;
+height: 600px;
+background: url(./images/bg-pattern-2.svg)  336px -40px / 312px 468px , #191826 ;
+background-repeat: no-repeat;
+}
+        
+.illustration-app{
+width: 312px;
+height: 642px;
+margin: -213px 696px 0 102px;
+}
+        
+.card{
+width: 446px;
+height: 625px;
+margin: -340px 60px 0 569px;
+
+}
+
+.wrapper {
+width: 333px;
+gap:22px;
+padding: 58px 59px 0 54px;
+}
+.wrapper h1{
+width: 333px;
+font-size: 40px;
+line-height: 52px; 
+}
+    
+.wrapper p{
+width: 333px;
+font-size: 20px;
+line-height: 34px;
+}
+    
+.price{
+margin: 39px 227px 0 54px;
+}
+
+.ios-button{
+width: 333px;
+height: 61px;
+margin: 46px 59px 0 54px;
+cursor: pointer;
+}
+.ios-button:hover{
+    background:  #66E2DC;
+}
+.android-button{
+width: 333px;
+height: 61px;
+margin: 16px 59px 48px 54px;
+cursor: pointer;
+}
+
+.android-button:hover{
+background: #FFB964;
+}
+.contact{
+width: 1110px;
+height: 79px;
+margin: 87px 165px 91px ;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.description{
+display: flex;
+flex-direction: row;
+gap: 137px;
+}
+    
+.description p{
+width: 366px;
+height: 79px;
+}
+
+.social-media{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 0;
+}
+
+
+.fb:hover {
+    cursor: pointer;
+    filter: invert(58%) sepia(27%) saturate(1494%) hue-rotate(322deg) brightness(100%) contrast(96%);
+}
+.ig:hover, .twit:hover{
+    cursor: pointer;
+    filter: invert(7%) sepia(21%) saturate(1124%) hue-rotate(205deg) brightness(100%) contrast(94%);
+}
+}
